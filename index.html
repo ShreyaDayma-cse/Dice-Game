@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess the number</title>
+    <title>Dice Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg-image"></div>
-    <h1>Guess the Number</h1>
-    <h4>You got 10 chances to Guess the Number Correctly OR You Lose!!</h4>
-    <input type="number" id="in">
-    <button onclick="guessNumber()">Check</button>
-    <p id="out"><b>RESULT:</b></p>
-    <script src="./script.js"></script>
+    <h1>Roll the Dice & Win!! <br>First One to Score 20 Wins</h1>
+
+    <div class="dice" id="first">Player1<span id="randomnumberP1">0</span>
+        <span class="p1s">0</span>
+       </div>
+
+    <div class="dice" id="second">Player2<span id="randomnumberP2">0</span>
+        <span class="p2s">0</span>
+       </div>
+    <div id="buttondiv">
+    <button type="button" class="btn"  id="p1btn">Player 1 Button</button>
+    <button type="button" class="btn" id="p2btn" >Player 2 Button</button>      
+    </div>
+     <div id="display">Result</div>
+    <script src="./script.js"></script>    
 </body>
 </html>
