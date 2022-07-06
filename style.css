@@ -1,0 +1,51 @@
+body{
+    height:100%;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url('https://d2r55xnwy6nx47.cloudfront.net/uploads/2022/05/Puzzle_May_2880x1620_Lede.jpg');
+}
+.bg-image{
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+h1,h4{
+    text-align: center;
+    color:rgb(6, 1, 18);
+}
+h1{
+    font-size: 50px;;
+}
+h4{
+    font-size: 20px;;
+}
+button{
+    border:2px solid rgb(231, 230, 234);
+    background-color: rgb(7, 100, 108);
+    border-radius: 0.5rem;
+    font-size: 30px;
+    margin:50px;
+    padding:10px;
+    color:aliceblue;
+    text-align: center;
+
+}
+button:hover{
+    background-color: rgb(2, 2, 53);
+}
+#in{
+    background-color: black;
+    width: 200px;
+    height: 25px;
+    padding:10px;
+    margin: 30px;
+    border:2px solid aliceblue;
+    color:aliceblue;
+    border-radius: 0.5rem;
+}
+#out{
+    font-size: 40px;
+    text-align: left;
+    margin: 20px;
+}
